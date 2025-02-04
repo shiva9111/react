@@ -1,0 +1,16 @@
+rcc to create react classs component
+
+rfce to create reract functiuon components
+
+
+rafce to creat efuncton components
+
+
+
+props:-Properties
+*****************
+- props is an object.
+- props is simlar to html attributes.
+- props is an object is used to exchnage the info/data from parent to child
+syntax:-
+Note:- props cant be passed from child components to parent components.
