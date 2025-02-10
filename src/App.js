@@ -122,21 +122,14 @@
 //  export default App;
 
 
-import React, { Component } from 'react'
-import Child1 from './propsexample/Child1'
-import Child2 from './propsexample/Child2'
-import Child3 from './propsexample/Child3'
-
-export default class App extends Component {
-  render() {
-    return (
-      <div className='app'>
-        <hr>
-        </hr>
-        <Child1 university/>
-        <Child2/>
-        <Child3/>
-      </div>
-    )
-  }
+// 
+import {React} from "react";
+import UseEffectEx from "./propsexample/UserEffectEx";
+const App = () => {
+  return(
+    <div>
+      <UseEffectEx/>
+    </div>
+  )
 }
+export default App;
