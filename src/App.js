@@ -124,11 +124,18 @@
 
 // 
 import {React} from "react";
-import UseEffectEx from "./propsexample/UserEffectEx";
+// import UseEffectEx from "./propsexample/UserEffectEx";
+import RefExample from "./HooksExample/RefExample";
+import ContextAPI from "./HooksExample/Contextexample/ContextAPI";
+import ContextC1 from "./HooksExample/Contextexample/ContextC1";
 const App = () => {
   return(
     <div>
-      <UseEffectEx/>
+      {/* <UseEffectEx/> */}
+      {/* <RefExample/> */}
+      <ContextAPI>
+        <ContextC1/>
+      </ContextAPI>
     </div>
   )
 }
