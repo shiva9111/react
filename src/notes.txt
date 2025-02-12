@@ -14,3 +14,21 @@ props:-Properties
 - props is an object is used to exchnage the info/data from parent to child
 syntax:-
 Note:- props cant be passed from child components to parent components.
+
+
+
+
+
+
+
+
+
+Routing in react
+*******************
+-routing is noting but navigate b/w two pages without reloading the web pages.
+- routing is part opf react by we are using with the help of third party library call "react-router-dom"
+- npm i react-router-dom@latest.
+-version-"7.1.5",
+7 - 
+1 - 
+5 - 
