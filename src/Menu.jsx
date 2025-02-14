@@ -1,5 +1,5 @@
 import React from 'react'
-import Styles from "./Navabar.module.css";
+import Styles from "./Navbar.module.css";
 
 const Menu = () => {
   return (
