@@ -19,7 +19,7 @@ const Home = () => {
             <h1>List of Users</h1>
             
             <div className="createBtn">
-                
+
 
             </div>
             <table>
@@ -33,15 +33,15 @@ const Home = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {
+                    {/* {
                         users.map((user, i)=>{
                             return(
-                                <td>{user.id}</td>
-                                <td>{user.name}</td>
-                                <td>{user.email}</td>
-                            )
-                        })
-                    }
+                            //     <td>{user.id}</td>
+                            //     <td>{user.name}</td>
+                            //     <td>{user.email}</td>
+                            // )
+                        }) */}
+                    {/* } */}
                 </tbody>
             </table>
         </article>
